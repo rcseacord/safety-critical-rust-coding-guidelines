@@ -25,7 +25,7 @@
         :status: draft
 
         Macros that generate unsafe code without preserving the ``unsafe`` token visibility obscure safety-critical code.
-        This noncompliant example defines a ``deref_ptr`` macro that performs an unsafe poitner deference. 
+        This noncompliant example defines a ``deref_ptr`` macro that performs an unsafe pointer deference. 
 
         .. rust-example::
 
